@@ -3,6 +3,7 @@ import React, { useEffect, useState } from 'react'
 import SideBar from '../../components/SideBar'
 import Header from '../../components/Header'
 import Modal from '../../components/Modal'
+import imgagemEscolhida from '../../assets/img/cargas.jpg'
 
 import { prepareProducts } from '../../api/product'
 
@@ -62,17 +63,19 @@ const Caminhao = () => {
       <div className="container-fluid display-table">
         <div className="row display-table-row">
           <SideBar nav="caminhoes" query={isManaged ? 'organizado' : null} />
+          
 
           <div className="col-md-6 col-sm-6 display-table-cell v-align">
-            <Header />
 
-            <div className="user-dashboard">
-              
-                      <div className='manage-trucks'>
-                        <button type="button" onClick={manageTrucks} className="btn btn-primary">
-                          Organizar entregas
-                        </button>
-                      
+            <div className="cargas">
+              <img src={imgagemEscolhida}/>
+            </div>
+
+            <div className="user-dashboard cargas-center">   
+              <div className='manage-trucks'>
+                <button type="button" onClick={manageTrucks} className="btn btn-primary">
+                  Enviar mercadorias
+                </button>
               </div>
             </div>
           </div>

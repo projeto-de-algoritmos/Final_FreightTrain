@@ -76,15 +76,7 @@ const Rotas = () => {
                       
 
                       <div className="btn-group">
-                        <button
-                          className="btn btn-secondary btn-lg dropdown-toggle"
-                          type="button"
-                          data-toggle="dropdown"
-                          aria-haspopup="true"
-                          aria-expanded="false"
-                        >
-                          <span>Caminhão:</span> {filter.label}
-                        </button>
+                        
                         <div className="dropdown-menu">
                           {options.map((option) => (
                             <a

@@ -23,7 +23,7 @@ const SideBar = (props) => {
           <li className={nav === "caminhoes" ? "active" : null}>
             <Link to="/caminhoes">
               <i className="fa fa-truck-moving" aria-hidden="true"></i>
-              <span className="hidden-xs">Trens</span>
+              <span className="hidden-xs">Enviar Mercadorias</span>
             </Link>
           </li>
           <li className={nav === "rotas" ? "active" : null}>
