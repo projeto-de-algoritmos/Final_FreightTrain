@@ -71,9 +71,9 @@ const prepareItems = (request, response) => {
     const itemEstado = itemsOrdenados[i]['estado']
     const ufItemEstado = ufEstados[itemEstado]
     const estado = estados[ufItemEstado]
-    const caminhao = caminhoes[estado['regiao']]
+    const transporte = caminhoes[estado['regiao']]
 
-    itemsOrdenados[i].caminhao = caminhao
+    itemsOrdenados[i].transporte = transporte
   }
 
   return response.status(200).json(itemsOrdenados)
@@ -93,9 +93,9 @@ const getRoutes = (request, response) => {
     const itemEstado = itemsOrdenados[i]['estado']
     const ufItemEstado = ufEstados[itemEstado]
     const estado = estados[ufItemEstado]
-    const caminhao = caminhoes[estado['regiao']]
+    const transporte = caminhoes[estado['regiao']]
 
-    itemsOrdenados[i].caminhao = caminhao
+    itemsOrdenados[i].transporte = transporte
   }
 
   const regiao = {

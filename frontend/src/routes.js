@@ -2,7 +2,7 @@ import React from 'react'
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import Armazem from './pages/Armazem'
-import Caminhao from './pages/Caminhao'
+import Transporte from './pages/Transporte'
 import Rotas from './pages/Rotas'
 
 const Routes = () => {
@@ -10,7 +10,7 @@ const Routes = () => {
         <BrowserRouter>
             <Switch>
                 <Route path="/" exact component={Armazem} />
-                <Route path="/caminhoes" component={Caminhao} />
+                <Route path="/caminhoes" component={Transporte} />
                 <Route path="/rotas" component={Rotas} />
             </Switch>
         </BrowserRouter>
