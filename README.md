@@ -1,45 +1,48 @@
-**!! Atenção: Renomeie o seu repositório para (Tema)_(NomeDoProjeto). !!** 
+# Freight Train
 
-Temas:
- - Grafos1
- - Grafos2
- - PD
- - D&C
- - Greed
- - Final 
- 
- **!! *Não coloque os nomes dos alunos no título do repositório*. Exemplo de título correto: Grafos2_Labirinto-do-Minotauro !!**
- 
- (Apague essa seção)
-
-# NomedoProjeto
-
-**Número da Lista**: X<br>
-**Conteúdo da Disciplina**: XXXXXXXXXX<br>
+**Número da Lista**: 3<br>
+**Conteúdo da Disciplina**: Programação Dinâmica<br>
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
 
-## Sobre 
-Descreva os objetivos do seu projeto e como ele funciona. 
+| Matrícula  | Aluno                   |
+| ---------- | ----------------------- |
+| 19/0046091 | Gustave Augusto Persijn |
+| 19/0032863 | Lorrayne Alves Cardozo  |
+
+## Sobre
+
+O projeto tem o objetivo de utilizar os algoritmos de Grafos e Dividir e Conquistar em uma aplicação real, que consiste em organizar as cargas de um trem por localização e apresentar por meio de grafos a melhor rota a ser seguida para fazer as entregas.
 
 ## Screenshots
-Adicione 3 ou mais screenshots do projeto em funcionamento.
 
-## Instalação 
-**Linguagem**: xxxxxx<br>
-**Framework**: (caso exista)<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
+![](./img/mercadorias.png)
 
-## Uso 
-Explique como usar seu projeto caso haja algum passo a passo após o comando de execução.
-
-## Outros 
-Quaisquer outras informações sobre seu projeto podem ser descritas abaixo.
+![](./img/mapa.png)
 
 
+## Instalação
 
+### Frameworks 
+- ReactJS 
+- NodeJS
 
+### Rodando backend
+```
+cd backend
+npm install
+npm start
+```
+O backend estará rodando na porta ```localhost:3001```
+
+### Rodando frontend
+```
+cd frontend
+npm install
+npm start
+```
+O frontend estará rodando na porta ```localhost:3000```
+
+## Apresentação
+
+[Link da apresentação]()
