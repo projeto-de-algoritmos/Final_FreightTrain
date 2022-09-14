@@ -1,0 +1,57 @@
+[
+  {
+    "identificador": 9,
+    "descricao": "Carga Q",
+    "empresa": "YT",
+    "estado": "Amazonas",
+    "dataEntrega": "2022-09-30T03:00:00.000Z",
+    "caminhao": 2
+  },
+  {
+    "identificador": 7,
+    "descricao": "Carga Z",
+    "empresa": "X",
+    "estado": "Santa Catarina",
+    "dataEntrega": "2022-09-09T03:00:00.000Z",
+    "caminhao": 2
+  },
+  {
+    "identificador": 1,
+    "descricao": "Carga A",
+    "estado": "Ceará",
+    "dataEntrega": "2022-09-14T03:00:00.000Z",
+    "caminhao": 2
+  },
+  {
+    "identificador": 2,
+    "descricao": "Carga B",
+    "empresa": "LG",
+    "estado": "Alagoas",
+    "dataEntrega": "2021-06-05T03:00:00.000Z",
+    "caminhao": 2
+  },
+  {
+    "identificador": 3,
+    "descricao": "Carga E",
+    "empresa": "LG",
+    "estado": "Ceará",
+    "dataEntrega": "2021-05-10T03:00:00.000Z",
+    "caminhao": 2
+  },
+  {
+    "identificador": 4,
+    "descricao": "Carga C",
+    "empresa": "LG",
+    "estado": "Bahia",
+    "dataEntrega": "2021-05-09T03:00:00.000Z",
+    "caminhao": 2
+  },
+  {
+    "identificador": 5,
+    "descricao": "Carga D",
+    "empresa": "LG",
+    "estado": "Ceará",
+    "dataEntrega": "2021-05-10T03:00:00.000Z",
+    "caminhao": 2
+  }
+]

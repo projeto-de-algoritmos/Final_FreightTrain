@@ -1,0 +1,499 @@
+body {
+  font-family: "Baloo Thambi 2", cursive;
+  background: #f6f7fa;
+  -webkit-font-smoothing: antialiased;
+}
+
+a:focus,
+a:hover,
+a {
+  color: #000;
+  outline: none;
+  text-decoration: none;
+}
+
+div {
+  position: relative;
+}
+
+li,
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+input {
+  box-shadow: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+h3 {
+  font-size: 20px;
+}
+h5 {
+  font-size: 16px;
+}
+
+.dashboard {
+  height: 100vh;
+}
+
+.display-table {
+  display: table;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.display-table-row {
+  display: table-row;
+  height: 100%;
+}
+
+.display-table-cell {
+  display: table-cell;
+  float: none;
+  height: 100%;
+  background-color: #100f0d;
+}
+
+.table > tbody > tr > td,
+.table > tbody > tr > th,
+.table > tfoot > tr > td,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > thead > tr > th {
+  vertical-align: middle;
+}
+.table .btn {
+  padding: 10px 15px;
+}
+
+.form-inline label {
+  display: block;
+}
+.form-control {
+  background-color: #f6f7fa;
+  border: none;
+  box-shadow: none;
+  color: #333;
+}
+.form-control:focus {
+  border-color: #002bde;
+  outline: 0;
+  box-shadow: none;
+}
+.form-group .btn {
+  padding: 6px 12px;
+}
+
+button,
+.btn {
+  background-color: #f17c02;
+  border: 0;
+  border-radius: 100px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 30px;
+  position: relative;
+  line-height: 1.5;
+}
+button:hover,
+.btn:hover {
+  background-color: #a55908e9;
+}
+.btn + .btn {
+  margin-left: 10px;
+}
+.imag{
+  background-image: url("./assets/img/train2.jpg");
+  background-size: 100%;
+  
+}
+
+.text-table{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.64);
+}
+
+/* Dashboard */
+#navigation {
+  display: none;
+  padding: 0;
+}
+#navigation {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+#navigation.collapse {
+  display: none;
+}
+#navigation.collapse.in {
+  display: table-cell;
+}
+
+.logo {
+  text-align: center;
+}
+.logo img {
+  padding: 1.5rem 1.5rem;
+  width: auto;
+}
+.admin-bar li {
+  margin-bottom: 20px;
+  padding: 0;
+}
+.admin-bar a {
+  border-radius: 0;
+  color: #fff;
+  display: flex;
+  font-size: 17px;
+  font-weight: 400;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+}
+.admin-bar a:hover {
+  background: #b36910;
+  color: #000;
+}
+
+.admin-bar .active a {
+  background: #b36910;
+  color: #000;
+}
+.admin-bar .active a::after {
+  display: none;
+}
+.admin-bar i {
+  font-size: 1.15em;
+  margin-right: 0;
+}
+.admin-bar .fa {
+  width: 1.25em;
+}
+
+header {
+  background-color: black;
+  box-shadow: 0 0.15rem 1.75rem 0 rgba(0, 0, 0, 0.1);
+  display: inline-block !important;
+  line-height: 23px;
+  padding: 15px;
+  width: 100%;
+}
+header {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.navbar-default {
+  background-color: #fff;
+  border-color: #fff;
+}
+.navbar-toggle {
+  border: none;
+  margin-right: 5px;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #333;
+}
+
+.search {
+  /* display: inline-block; */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.header-top .btn {
+  padding: 10px 27px 10px 45px;
+}
+.header-top .btn::before {
+  content: "\f067";
+  font-family: "Font Awesome 5 Free";
+  font-size: 14px;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+
+.hidden-xs {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.user-dashboard {
+  overflow: hidden;
+  padding: 0 20px;
+}
+.user-dashboard h1 {
+  color: #000;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0;
+  padding: 21px 0;
+}
+.card {
+  background-color: white;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 30px;
+  padding: 15px;
+  width: 100%;
+  margin-top: 50px;
+}
+.card .btn-group {
+  float: right;
+}
+.card h2 {
+  color: #333;
+  float: left;
+  font-size: 21px;
+  font-weight: 600;
+  margin: 0;
+  padding: 9px 0 0;
+}
+.card-header {
+  display: inline-block;
+  width: 100%;
+}
+.card-header button {
+  background-color: #fff;
+  border: 1px solid #dadee7;
+  border-radius: 100px;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  padding: 10px 32px 10px 16px;
+  color: #000;
+}
+.card-header button:hover {
+  background-color: #dadee7;
+}
+.card-header button::before {
+  content: "\f107";
+  font-family: "Font Awesome 5 Free";
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+.btn.btn-secondary.btn-lg.dropdown-toggle > span {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+.card .btn-group.open .dropdown-toggle,
+.btn.active,
+.btn:active {
+  background-color: #fff;
+  box-shadow: none;
+}
+.card .dropdown-menu {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  border-radius: 8px;
+  width: 100%;
+  color: #000;
+}
+.card .dropdown-menu > a {
+  color: #000;
+  display: inline-block;
+  font-weight: 600;
+  padding: 9px 0;
+  text-align: center;
+  width: 100%;
+}
+.card .dropdown-menu > a:hover {
+  color: #002bde;
+}
+.card-body {
+  margin-top: 20px;
+}
+.card-body .table #icon {
+  display: none;
+  margin-left: 15px;
+}
+
+.pagination > li > a {
+  border: 1px solid #dadee7;
+  padding: 10px 15px;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+}
+.pagination > li > a:focus,
+.pagination > li > a:hover {
+  color: #000;
+  background-color: #dadee7;
+}
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover {
+  color: #000;
+  background-color: #dadee7;
+  border-color: #dadee7;
+}
+
+.manage-trucks {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.trucks {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  margin-bottom: 25px;
+}
+.truck {
+  height: 590px; /* 500 */
+  width: 230px; /* 190 */
+  background: #ffffff url("./assets/img/truck.png") no-repeat center;
+  background-size: contain;
+  float: left;
+}
+.truck .name {
+  position: absolute;
+  top: 150px;
+  width: 100%;
+  text-align: center;
+}
+.truck .name h3 {
+  font-weight: 600;
+  margin: 0;
+}
+.truck .products {
+  position: absolute;
+  width: 180px;
+  top: 205px;
+  left: 25px;
+}
+.truck .products p {
+  text-align: center;
+}
+
+.map-area {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.modal-content {
+  border: 0;
+  border-radius: 16px;
+}
+.modal-header {
+  background-color: #5b9af1;
+  border: 0;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  padding: 15px;
+}
+.modal-header h4 {
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+.modal-header .close {
+  margin-top: 2px;
+}
+.modal-body {
+  padding: 15px;
+}
+.modal-body textarea {
+  height: 80px;
+}
+.modal-footer {
+  border: 0 none;
+  padding: 10px 15px 20px;
+  text-align: right;
+}
+.btn-black {
+  background: #000;
+}
+.btn-black:hover,
+.btn-black:focus {
+  background: #333;
+  color: #fff;
+}
+
+/* Media Queries */
+@media screen and (min-width: 768px) {
+  #navigation {
+    display: table-cell;
+  }
+  #navigation.collapse {
+    display: table-cell;
+  }
+  .admin-bar span {
+    display: block;
+  }
+  .logo img {
+    padding: 2rem;
+  }
+  .card-body .table #icon {
+    display: inline-block;
+  }
+  .card-body .form-inline .form-control {
+    max-width: 70%;
+  }
+  .table .btn {
+    padding: 10px 25px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .logo img {
+    width: 100%;
+    padding: 0 0;
+  }
+  .admin-bar li {
+    padding: 0px 20px;
+  }
+  .admin-bar a {
+    text-align: left;
+    border-radius: 20px;
+  }
+  .admin-bar a::after {
+    display: block;
+  }
+  .admin-bar i {
+    margin-right: 15px;
+  }
+  .admin-bar span {
+    display: inline;
+  }
+  .trucks {
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+}
