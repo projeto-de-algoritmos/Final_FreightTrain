@@ -42,9 +42,9 @@ const Rotas = () => {
       )
 
       if (alert === true) {
-        history.push('/caminhoes')
+        history.push('/trens')
       } else {
-        history.push('/caminhoes')
+        history.push('/trens')
       }
     }
   }, [history, query.organizado])

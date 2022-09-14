@@ -58,7 +58,7 @@ const addItem = (request, response) => {
 }
 
 const prepareItems = (request, response) => {
-  const caminhoes = {
+  const trens = {
     "norte": 1,
     "nordeste": 2,
     "centro-oeste": 3,
@@ -71,7 +71,7 @@ const prepareItems = (request, response) => {
     const itemEstado = itemsOrdenados[i]['estado']
     const ufItemEstado = ufEstados[itemEstado]
     const estado = estados[ufItemEstado]
-    const transporte = caminhoes[estado['regiao']]
+    const transporte = trens[estado['regiao']]
 
     itemsOrdenados[i].transporte = transporte
   }
@@ -80,7 +80,7 @@ const prepareItems = (request, response) => {
 }
 
 const getRoutes = (request, response) => {
-  const caminhoes = {
+  const trens = {
     "norte": 1,
     "nordeste": 2,
     "centro-oeste": 3,
@@ -93,7 +93,7 @@ const getRoutes = (request, response) => {
     const itemEstado = itemsOrdenados[i]['estado']
     const ufItemEstado = ufEstados[itemEstado]
     const estado = estados[ufItemEstado]
-    const transporte = caminhoes[estado['regiao']]
+    const transporte = trens[estado['regiao']]
 
     itemsOrdenados[i].transporte = transporte
   }

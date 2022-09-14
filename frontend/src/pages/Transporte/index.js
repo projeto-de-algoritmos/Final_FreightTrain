@@ -62,7 +62,7 @@ const Transporte = () => {
     <section className="dashboard">
       <div className="container-fluid display-table">
         <div className="row display-table-row">
-          <SideBar nav="caminhoes" query={isManaged ? 'organizado' : null} />
+          <SideBar nav="trens" query={isManaged ? 'organizado' : null} />
           
 
           <div className="col-md-6 col-sm-6 display-table-cell v-align">

@@ -20,8 +20,8 @@ const SideBar = (props) => {
               <span className="hidden-xs">Ver Tabela de Mercadorias</span>
             </Link>
           </li>
-          <li className={nav === "caminhoes" ? "active" : null}>
-            <Link to="/caminhoes">
+          <li className={nav === "trens" ? "active" : null}>
+            <Link to="/trens">
               <i className="fa fa-train" aria-hidden="true"></i>
               <span className="hidden-xs">Enviar Mercadorias</span>
             </Link>
