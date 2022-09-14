@@ -59,7 +59,7 @@ const Modal = () => {
                 <input
                   type="number"
                   value={identificador}
-                  placeholder="Identificador do produto"
+                  placeholder="ID do Produto"
                   className="form-control"
                   name="product_id"
                   onChange={e => setIdentificador(e.target.value)}
@@ -70,14 +70,14 @@ const Modal = () => {
                 <input
                   type="text"
                   value={description}
-                  placeholder="Descrição do produto"
+                  placeholder="Nome do produto"
                   className="form-control"
                   name="product_description"
                   onChange={e => setDescription(e.target.value)}
                   required
                 />
               </div>
-              <div className="form-group">
+              {/* <div className="form-group">
                 <input
                   type="text"
                   value={company}
@@ -87,7 +87,7 @@ const Modal = () => {
                   onChange={e => setCompany(e.target.value)}
                   required
                 />
-              </div>
+              </div> */}
               <div className="form-group">
                 <select
                   value={state}

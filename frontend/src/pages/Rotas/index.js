@@ -38,7 +38,7 @@ const Rotas = () => {
   useEffect(() => {
     if (!query.organizado) {
       const alert = window.confirm(
-        'Clique em Enviar Correspondências, antes de ver o Mapa'
+        'Clique em Enviar Mercadorias, antes de ver o Mapa'
       )
 
       if (alert === true) {

@@ -21,6 +21,7 @@ ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  padding-top: 10px;
 }
 
 img {
@@ -420,7 +421,7 @@ header {
   border-radius: 16px;
 }
 .modal-header {
-  background-color: #5b9af1;
+  background-color: black;
   border: 0;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
