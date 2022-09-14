@@ -5,58 +5,15 @@ import Header from '../../components/Header'
 import imgagemEscolhida from '../../assets/img/cargas.jpg'
 import Enviado from '../../components/Enviado'
 
-import { prepareProducts } from '../../api/product'
-
 const Transporte = () => {
-  const [products, setProducts] = useState([])
   const [isManaged, setIsManaged] = useState(false)
 
-  const [truck1, setTruck1] = useState([])
-  const [truck2, setTruck2] = useState([])
-  const [truck3, setTruck3] = useState([])
-  const [truck4, setTruck4] = useState([])
-  const [truck5, setTruck5] = useState([])
-
-  const setTruck = (setFunc, product, i) => {
-    const time = 1000
-
-    setTimeout(() => {
-      setFunc(products => [...products, product])
-      setProducts(products => products.slice(1))
-    }, i * time)
-  }
 
   const manageTrucks = () => {
-    products.forEach((product, i) => {
-      switch(product.transporte) {
-        case 1:
-          setTruck(setTruck1, product, i)
-          break;
-        case 2:
-          setTruck(setTruck2, product, i)
-          break;
-        case 3:
-          setTruck(setTruck3, product, i)
-          break;
-        case 4:
-          setTruck(setTruck4, product, i)
-          break;
-        case 5:
-          setTruck(setTruck5, product, i)
-          break;
-        default:
-          break;
-      }
-    })
+    
     setIsManaged(true)
   }
 
-  useEffect(() => {
-    (async () => {
-      const { status, body } = await prepareProducts()
-      if (status === 200) setProducts(body)
-    })()
-  }, [])
 
   return (
     <section className="dashboard">
