@@ -12,10 +12,10 @@ import { drawRoute } from '../../utils/drawRoute'
 
 const options = [
   { label: 'Norte', value: 1 },
-  { label: 'Nordeste', value: 2 },
-  { label: 'Centro-Oeste', value: 3 },
-  { label: 'Sudeste', value: 4 },
-  { label: 'Sul', value: 5 },
+  { label: 'Nordeste', value: 1 },
+  { label: 'Centro-Oeste', value: 1 },
+  { label: 'Sudeste', value: 1 },
+  { label: 'Sul', value: 1 },
 ]
 
 const Rotas = () => {
@@ -38,7 +38,7 @@ const Rotas = () => {
   useEffect(() => {
     if (!query.organizado) {
       const alert = window.confirm(
-        'Organize as entregas em Caminhões antes de ver as Rotas.'
+        'Clique em Enviar Correspondências, antes de ver o Mapa'
       )
 
       if (alert === true) {
@@ -100,7 +100,7 @@ const Rotas = () => {
                     </div>
                     <div className="card-body">
                       <div className='map-area'>
-                        <Map key={filter.value} height={800} width={800} />
+                        <Map key={filter.value} height={500} width={500} />
                       </div>
                     </div>
                   </div>

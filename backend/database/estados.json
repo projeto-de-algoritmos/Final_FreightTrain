@@ -7,7 +7,7 @@
         "sigla": "AM"
       }
     ],
-    "regiao": "centro-oeste"
+    "regiao": "norte"
   },
   "AL": {
     "nome": "Alagoas",
@@ -42,7 +42,7 @@
         "sigla": "MT"
       }
     ],
-    "regiao": "centro-oeste"
+    "regiao": "norte"
   },
   "BA": {
     "nome": "Bahia",
@@ -256,7 +256,7 @@
         "sigla": "MA"
       }
     ],
-    "regiao": "centro-oeste"
+    "regiao": "norte"
   },
   "PB": {
     "nome": "Paraíba",
@@ -381,7 +381,7 @@
         "sigla": "MT"
       }
     ],
-    "regiao": "centro-oeste"
+    "regiao": "norte"
   },
   "RR": {
     "nome": "Roraima",
@@ -394,7 +394,7 @@
         "sigla": "PA"
       }
     ],
-    "regiao": "centro-oeste"
+    "regiao": "norte"
   },
   "SC": {
     "nome": "Santa Catarina",
@@ -464,6 +464,6 @@
         "sigla": "GO"
       }
     ],
-    "regiao": "centro-oeste"
+    "regiao": "norte"
   }
 }
