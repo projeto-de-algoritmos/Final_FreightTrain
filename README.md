@@ -1,7 +1,7 @@
 # Freight Train
 
 **Número da Lista**: 3<br>
-**Conteúdo da Disciplina**: Programação Dinâmica<br>
+**Conteúdo da Disciplina**: Grafos e Dividir e Conquistar<br>
 
 ## Alunos
 
