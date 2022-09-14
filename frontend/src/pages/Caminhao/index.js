@@ -2,8 +2,8 @@ import React, { useEffect, useState } from 'react'
 
 import SideBar from '../../components/SideBar'
 import Header from '../../components/Header'
-import Modal from '../../components/Modal'
 import imgagemEscolhida from '../../assets/img/cargas.jpg'
+import Enviado from '../../components/Enviado'
 
 import { prepareProducts } from '../../api/product'
 
@@ -73,7 +73,7 @@ const Caminhao = () => {
 
             <div className="user-dashboard cargas-center">   
               <div className='manage-trucks'>
-                <button type="button" onClick={manageTrucks} className="btn btn-primary">
+                <button type="button" onClick={manageTrucks} data-toggle="modal" data-target="#enviado" className="btn btn-primary">
                   Enviar mercadorias
                 </button>
               </div>
@@ -84,7 +84,7 @@ const Caminhao = () => {
       </div>
 
       <div className="modals">
-        <Modal />
+        <Enviado />
       </div>
 
     </section>
