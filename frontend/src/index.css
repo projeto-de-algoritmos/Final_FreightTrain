@@ -372,44 +372,6 @@ header {
   border-color: #dadee7;
 }
 
-.manage-trucks {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 25px;
-}
-.trucks {
-  display: flex;
-  justify-content: center;
-  flex-flow: row wrap;
-  margin-bottom: 25px;
-}
-.truck {
-  height: 590px; /* 500 */
-  width: 230px; /* 190 */
-  background: #ffffff url("./assets/img/truck.png") no-repeat center;
-  background-size: contain;
-  float: left;
-}
-.truck .name {
-  position: absolute;
-  top: 150px;
-  width: 100%;
-  text-align: center;
-}
-.truck .name h3 {
-  font-weight: 600;
-  margin: 0;
-}
-.truck .products {
-  position: absolute;
-  width: 180px;
-  top: 205px;
-  left: 25px;
-}
-.truck .products p {
-  text-align: center;
-}
-
 .map-area {
   display: flex;
   justify-content: center;
@@ -500,9 +462,6 @@ header {
   }
   .admin-bar span {
     display: inline;
-  }
-  .trucks {
-    justify-content: space-between;
   }
 }
 
