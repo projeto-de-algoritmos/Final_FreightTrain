@@ -45,4 +45,4 @@ O frontend estará rodando na porta ```localhost:3000```
 
 ## Apresentação
 
-[Link da apresentação]()
+[Link da apresentação](https://youtu.be/V9tOqZjW72o)

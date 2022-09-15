@@ -136,7 +136,7 @@ const Armazem = () => {
 
             <div className="search">
               <div className="header-top">
-                <button className="btn btn-dark" data-toggle="modal" data-target="#add_product">Novo Produto</button>
+                <button className="btn btn-dark" data-toggle="modal" data-target="#add_product">Adicionar carga</button>
               </div>
             </div>
 
